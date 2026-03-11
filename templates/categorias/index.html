@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}
+Listado de Categorías
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="text-center">Listado de Categorías</h1>
+    <a href="{% url 'crear-categoria' %}" class="btn btn-primary mb-3">Crear Categoría</a>
+    <div class="row">
+        {% for categoria in categorias %}
+        <div class="col-md-4">
+            <div class="card mt-2">
+                <div class="card-body border border-primary rounded">
+                    <h5 class="card-title text-center">{{ categoria.nombre }}</h5>
+                     <p class="card-text">Descripcion: {{ categoria.descripcion }}</p>
+                    <div class="text-center">
+                        <a href="{% url 'productos-por-categoria' categoria.id_categoria  %}" class="btn btn-primary">Ver productos</a>
+                        <a href="{% url 'editar-categoria' categoria.id_categoria %}" class="btn btn-warning">Editar</a>
+                        <a href="{% url 'eliminar-categoria' categoria.id_categoria %}" class="btn btn-danger" onclick="return confirm('¿Estás seguro de que deseas eliminar esta categoria ?');">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,132 @@
+[
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 1,
+            "nombre": "Cocacola",
+            "precio":5000,
+            "stock_disponible": 20,
+            "categoria": 1,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 2,
+            "nombre": "Sprite",
+            "precio":5000,
+            "stock_disponible": 20,
+            "categoria": 1,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 3,
+            "nombre": "Empandas de pino",
+            "precio":2500,
+            "stock_disponible": 20,
+            "categoria": 2,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 4,
+            "nombre": "Empandas de queso",
+            "precio":2000,
+            "stock_disponible": 20,
+            "categoria": 2,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 5,
+            "nombre": "Pastel de choclo",
+            "precio":5000,
+            "stock_disponible": 20,
+            "categoria": 3,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 6,
+            "nombre": "Chorrillana",
+            "precio":10000,
+            "stock_disponible": 20,
+            "categoria": 3,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 7,
+            "nombre": "Helado",
+            "precio":3000,
+            "stock_disponible": 20,
+            "categoria": 4,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 8,
+            "nombre": "Leche asada",
+            "precio":4000,
+            "stock_disponible": 20,
+            "categoria": 4,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 9,
+            "nombre": "vino tinto",
+            "precio":12000,
+            "stock_disponible": 20,
+            "categoria": 5,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "productos.producto",
+        "fields": {
+            "id_producto": 10,
+            "nombre": "Cerveza",
+            "precio":4500,
+            "stock_disponible": 20,
+            "categoria": 5,
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "model": "categorias.categoria",
+        "fields": {
+            "id_categoria": 1,
+            "nombre": "Bebidas",
+            "descripcion":"Categoría de bebidas, incluyendo refrescos, jugos y agua.",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "categorias.categoria",
+        "fields": {
+            "id_categoria": 2,
+            "nombre": "Entradas",
+            "descripcion":"Categoría de entradas, incluyendo aperitivos y platos pequeños.",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "categorias.categoria",
+        "fields": {
+            "id_categoria": 3,
+            "nombre": "Platos principales",
+            "descripcion":"Categoría de platos principales, incluyendo carnes, pescados y opciones vegetarianas.",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    },
+    {
+        "model": "categorias.categoria",
+        "fields": {
+            "id_categoria": 4,
+            "nombre": "Postres",
+            "descripcion":"Categoría de postres, incluyendo pasteles, helados y frutas.",
+            "created_at": "2024-06-01T00:00:00Z",
+            "updated_at": "2024-06-01T00:00:00Z",
+            "deleted_at": null 
+        }
+    }
+]
